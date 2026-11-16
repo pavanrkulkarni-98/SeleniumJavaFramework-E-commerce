@@ -7,7 +7,7 @@ import java.util.Properties;
 
 import com.ecommerce.constants.FrameworkConstants;
 
-public class ConfigReader {
+public class ConfigLoader {
 
     private static Properties properties;
 
