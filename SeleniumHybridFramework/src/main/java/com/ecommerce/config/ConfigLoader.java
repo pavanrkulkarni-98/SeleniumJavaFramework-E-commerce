@@ -16,7 +16,7 @@ public class ConfigLoader {
         properties = new Properties();
 
         try (FileInputStream fis =
-                new FileInputStream(FrameworkConstant.CONFIG_FILE_PATH)) {
+                new FileInputStream(FrameworkConstants.CONFIG_FILE_PATH)) {
 
             properties.load(fis);
 
